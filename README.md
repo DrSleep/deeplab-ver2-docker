@@ -7,7 +7,7 @@ The image can be built by running:
 nvidia-docker build -t caffe_dl:gpu standalone/dl_gpu
 ```
 
-The image requires a CUDA 7.5 capable driver to be installed on the system and [nvidia-docker] for running the Docker containers.
+The image requires a CUDA 7.5 capable driver to be installed on the system and [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) for running the Docker containers.
 
 For more information on how to run Caffe using the docker image please refer to the [Caffe guide](https://github.com/BVLC/caffe/blob/master/docker/README.md).
 
